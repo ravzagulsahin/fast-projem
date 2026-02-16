@@ -6,8 +6,9 @@ app = FastAPI()
 @app.get("/")
 def root(a:int,
     b:int,
-    isim:str):
+    isim:str,char:str,pat:int):
     result = a*b
-    return { f"hello {isim} {result}"}
+    c = char
+    return {"message": f"hello {char} {isim} {result}"}
 
             
