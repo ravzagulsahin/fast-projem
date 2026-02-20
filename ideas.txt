@@ -1,6 +1,11 @@
-Harika bir karar! **Roadmap.sh**, kaybolmanı engelleyecek en iyi haritadır. Özellikle "her şeyi sıfırdan öğrenmek" vizyonun, ilerde karşına çıkacak karmaşık sorunları (tıpkı bugün çözdüğümüz Pydantic veya Metadata meseleleri gibi) "büyü" gibi değil, mantık çerçevesinde görmeni sağlar.
+Harika bir karar! **Roadmap.sh**, kaybolmanı engelleyecek en iyi haritadır. 
+Özellikle "her şeyi sıfırdan öğrenmek" vizyonun, 
+ilerde karşına çıkacak karmaşık sorunları (tıpkı bugün çözdüğümüz P
+ydantic veya Metadata meseleleri gibi) "büyü" gibi değil, mantık çerçevesinde görmeni sağlar.
 
-Backend yolculuğuna başlarken, el alışkanlığı kazanman için sana **"FastAPI Odaklı"** küçük bir mini-proje serisi önereyim. Bu projeler, öğrendiğin her yeni konuyu (HTTP, JSON, DB) koda dökmeni sağlar:
+Backend yolculuğuna başlarken, el alışkanlığı kazanman için sana 
+**"FastAPI Odaklı"** küçük bir mini-proje serisi önereyim. Bu projeler, 
+öğrendiğin her yeni konuyu (HTTP, JSON, DB) koda dökmeni sağlar:
 
 ### 1. Haftalık Proje Planı (Isınma Turu)
 
@@ -14,10 +19,14 @@ Backend yolculuğuna başlarken, el alışkanlığı kazanman için sana **"Fast
 
 ### Yolculuğun Başında Unutmaman Gereken 3 Şey:
 
-1. **"Neden?" Diye Sor:** Roadmap'te bir kutucuğu işaretlemeden önce, o teknolojinin neden var olduğunu anla. Mesela: "Neden JSON kullanıyoruz da XML kullanmıyoruz?"
-2. **Dokümantasyon Oku:** Bugün Swagger ile uğraştık; FastAPI'nin kendi dokümantasyonu (fastapi.tiangolo.com) dünyadaki en iyi rehberlerden biridir.
-3. **Hata Yapmaktan Korkma:** Bugün çözdüğümüz o "Query param eksik, SQL çalışmıyor" durumları, en iyi öğrenme anlarıdır.
+1. **"Neden?" Diye Sor:** Roadmap'te bir kutucuğu işaretlemeden önce, o teknolojinin neden var olduğunu anla. 
+Mesela: "Neden JSON kullanıyoruz da XML kullanmıyoruz?"
+2. **Dokümantasyon Oku:** Bugün Swagger ile uğraştık; FastAPI'nin kendi dokümantasyonu
+ (fastapi.tiangolo.com) dünyadaki en iyi rehberlerden biridir.
+3. **Hata Yapmaktan Korkma:** Bugün çözdüğümüz o "Query param eksik, SQL çalışmıyor" durumları, 
+en iyi öğrenme anlarıdır.
 
-Roadmap'e başladığında takıldığın bir kavram olursa (mesela "DNS nasıl çalışır?" veya "Stateless ne demek?") gel, yine en basit haliyle, patrona anlatır gibi konuşalım.
+Roadmap'e başladığında takıldığın bir kavram olursa (mesela "DNS nasıl çalışır?" veya "Stateless ne demek?") gel, 
+yine en basit haliyle, patrona anlatır gibi konuşalım.
 
 Backend dünyasına hoş geldin! İlk adımı atmaya hazır mısın?
