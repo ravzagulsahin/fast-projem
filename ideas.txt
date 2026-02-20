@@ -1,0 +1,23 @@
+Harika bir karar! **Roadmap.sh**, kaybolmanı engelleyecek en iyi haritadır. Özellikle "her şeyi sıfırdan öğrenmek" vizyonun, ilerde karşına çıkacak karmaşık sorunları (tıpkı bugün çözdüğümüz Pydantic veya Metadata meseleleri gibi) "büyü" gibi değil, mantık çerçevesinde görmeni sağlar.
+
+Backend yolculuğuna başlarken, el alışkanlığı kazanman için sana **"FastAPI Odaklı"** küçük bir mini-proje serisi önereyim. Bu projeler, öğrendiğin her yeni konuyu (HTTP, JSON, DB) koda dökmeni sağlar:
+
+### 1. Haftalık Proje Planı (Isınma Turu)
+
+| Gün | Proje Konusu | Amacı |
+| --- | --- | --- |
+| **1. Gün** | Simple Greeter API | HTTP Metotlarını (`GET`) ve Path Parametrelerini öğrenmek. |
+| **2. Gün** | Personal Todo List | `POST` metodunu ve "Request Body" (JSON) mantığını oturtmak. |
+| **3. Gün** | Bookstore Schema | Pydantic modellerini (bugün yaptığımız `Flow` gibi) kullanarak veri doğrulamak. |
+| **4. Gün** | In-Memory Database | Veriyi kalıcı olmasa da bir `list` içinde tutup yönetmek (CRUD). |
+| **5. Gün** | Error Handler | `HTTPException` kullanarak hataları profesyonelce yönetmek. |
+
+### Yolculuğun Başında Unutmaman Gereken 3 Şey:
+
+1. **"Neden?" Diye Sor:** Roadmap'te bir kutucuğu işaretlemeden önce, o teknolojinin neden var olduğunu anla. Mesela: "Neden JSON kullanıyoruz da XML kullanmıyoruz?"
+2. **Dokümantasyon Oku:** Bugün Swagger ile uğraştık; FastAPI'nin kendi dokümantasyonu (fastapi.tiangolo.com) dünyadaki en iyi rehberlerden biridir.
+3. **Hata Yapmaktan Korkma:** Bugün çözdüğümüz o "Query param eksik, SQL çalışmıyor" durumları, en iyi öğrenme anlarıdır.
+
+Roadmap'e başladığında takıldığın bir kavram olursa (mesela "DNS nasıl çalışır?" veya "Stateless ne demek?") gel, yine en basit haliyle, patrona anlatır gibi konuşalım.
+
+Backend dünyasına hoş geldin! İlk adımı atmaya hazır mısın?

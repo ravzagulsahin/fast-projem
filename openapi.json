@@ -7,8 +7,8 @@
   "paths": {
     "/": {
       "get": {
-        "summary": "Root",
-        "operationId": "root__get",
+        "summary": "Say Hello",
+        "operationId": "sayhello",
         "parameters": [
           {
             "name": "a",
